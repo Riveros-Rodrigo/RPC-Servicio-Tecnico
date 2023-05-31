@@ -108,11 +108,41 @@
         </div>
     </section>
 
-    <section>
-        <div class="">
-            <h2 class="titulo-contacto">Contáctame</h2>
+    <section id="contacto" class="contacto">
+        <div class="contenidoContacto">
+            <h2>Contáctame</h2>
+            <p class="texto-contacto">Me podes contactar llenando el formulario o tambien dando click al logo de whatsapp que aparece en la pantalla</p>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <form action="https://formsubmit.co/rodrigoezequiel.riveros@gmail.com" method="POST">
+                        <input type="text" name="nombre" placeholder="Tú Nombre" required>
+                        <input type="text" name="celular" placeholder="Número telefónico" required>
+                        <input type="text" name="mail" placeholder="Dirección de correo" required>
+                        <input type="text" name="tema" placeholder="Tema" required>
+                        <textarea name="mensaje" cols="30" rows="10" placeholder="Ingresa tu consulta..." required></textarea>
+                        <button type="submit">
+                            Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                            <span class="overlay"></span>
+                            <input type="hidden" name="_next" value="https://riveros-rodrigo.github.io/gracias-form/">
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="hidden" name="_subject" value="¡Solicitud de información Servicio Tecnico - RPC!">
+                            <input type="hidden" name="_template" value="table">
+                        </button>
+                    </form>
+                </div>
+            </div>
         </div>
     </section>
+
+    <footer>
+        <div class="contenedor-logo-redes">
+            <img class="img-footer" src="./img-rpc/2.png" alt="">
+            <i class="fa-brands fa-whatsapp"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-regular fa-envelope"></i>
+        </div>
+    </footer> 
 
 
 
