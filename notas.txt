@@ -1,0 +1,4 @@
+titulos en mobile 30px
+textos en mobile 18px
+line-height: 32px;
+font-family: 'Roboto', sans-serif;

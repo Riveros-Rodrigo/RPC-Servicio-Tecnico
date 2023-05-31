@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    max-width: 100%;
+}
+/* header desktop */
+.header-desktop{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    display: none;
+}
+.logo{
+    width: 5rem;
+}
+li {
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+}
+ul{
+    display: flex;
+}
+/* fin header desktop */
+/* Estilos al header mobile bootstrap */
+div .color{
+    background-color: #FFFFFF;
+}
+/* Fin de estilos al header mobile bootstrap */
+/* Estilos MAIN */
+main{
+    width: 80%;
+    margin: auto;
+}
+h1{
+    color: #18191F;
+    font-family: 'Roboto';
+    font-weight: 900;
+    line-height: 70px;
+    font-size: 30px;
+    text-align: center;
+}
+.texto-sobre-mi{
+    color: #18191F;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+}
+/* seccion de servicios */
+section{
+    width: 80%;
+    margin: auto;
+}
+.titulo-servicios{
+    color: #18191F;
+    font-family: 'Roboto';
+    font-weight: 900;
+    line-height: 70px;
+    font-size: 30px;
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+.texto-servicios{
+    color: #18191F;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+}
+/* contacto */
