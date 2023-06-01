@@ -99,14 +99,6 @@ h3{
     text-align: center;
     padding: 20px 0;
 }
-.texto-contacto{
-    font-family: 'Roboto';
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 18px;
-    color: #000000;
-    text-align: start;
-}
 .contacto .fila{
     display: block;
 }
