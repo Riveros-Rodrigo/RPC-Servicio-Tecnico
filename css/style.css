@@ -53,9 +53,10 @@ h1{
     line-height: 32px;
 }
 /* seccion de servicios */
-section{
+.contenedor-servicios{
     width: 80%;
     margin: auto;
+    overflow-x: hidden;
 }
 .titulo-servicios{
     color: #18191F;
@@ -82,7 +83,7 @@ h3{
     color: #fff;
     padding: 50px 0;
     border-radius: 5px;
-    width: 80%;
+    width: 90%;
     margin: auto;
 }
 .contacto .contenidoContacto{
@@ -104,7 +105,7 @@ h3{
     font-size: 18px;
     line-height: 18px;
     color: #000000;
-    text-align: center;
+    text-align: start;
 }
 .contacto .fila{
     display: block;
@@ -156,7 +157,8 @@ h3{
 /* FOOTER */
 footer{
     background: #000000;
-    margin: 20px 0px;
+    margin-top: 20px;
+    height: 7rem;
 }
 .contenedor-logo-redes{
     display: flex;
@@ -165,4 +167,13 @@ footer{
 }
 .img-footer{
     width: 5rem;
+}
+.texto-footer{
+    color: #D9DBE1;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
 }

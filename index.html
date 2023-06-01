@@ -8,7 +8,11 @@
     <!-- link bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- css -->
     <link rel="stylesheet" href="./css/style.css">
+    <!-- fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
@@ -51,7 +55,7 @@
         </div>
     </header>
 
-    <main>
+    <main data-aos="fade-up">
         <div class="">
             <h1>Servicio Técnico</h1>
             <p class="texto-sobre-mi">RPC, brinda servicio técnico de PC que desarrolla un trabajo integral y responsable sobre las computadoras de nuestros clientes.
@@ -62,24 +66,24 @@
         </div>
     </main>
 
-    <section>
+    <section class="contenedor-servicios">
         <h2 class="titulo-servicios">Servicios</h2>
         <!-- primer fila -->
         <div class="servicios-primer-fila">
-            <div>
+            <div data-aos="fade-right">
                 <img src="./img-rpc/formateo.jpg" alt="">
                 <h3>Formateo de computadoras</h3>
                 <p class="texto-servicios">Esta es la mejor opción en caso de que tu computadora tenga muchos problemas y sea imposible reparar el sistema operativo.
                 Este servicio devuelve el equipo a su estado original y procedo a reinstalar el sistema operativo junto a los programas que pidas. En caso que lo solicites también el respaldo de la información que tenias antes.</p>
             </div>
 
-            <div>
+            <div data-aos="fade-left">
                 <img src="./img-rpc/formateo.jpg" alt="">
                 <h3>Instalación de Windows</h3>
                 <p class="texto-servicios">Mí servicio de instalación de Windows te brinda una solución rápida y eficiente para restaurar tu PC a su funcionamiento óptimo. Me encargaré de instalar y configurar la última versión de Windows en tu equipo, asegurándose de que todos los controladores y programas necesarios estén correctamente instalados. Disfruta de un sistema operativo actualizado y sin errores para maximizar el rendimiento de tu computadora.</p>
             </div>
 
-            <div>
+            <div data-aos="fade-right">
                 <img src="./img-rpc/formateo.jpg" alt="">
                 <h3>Instalación de antivirus.</h3>
                 <p class="texto-servicios">Protege tu computadora contra amenazas digitales con el servicio de instalación de antivirus. Me encargaré de instalar un antivirus confiable y actualizado en tu sistema, brindándote una sólida defensa contra virus, malware y otras amenazas cibernéticas. Mantén tu información segura y disfruta de una navegación en línea sin preocupaciones con nuestra instalación de antivirus profesional.</p>
@@ -88,19 +92,19 @@
         <!-- segunda fila -->
         <div class="servicios-segunda-fila">
 
-            <div>
+            <div data-aos="fade-left">
                 <img src="./img-rpc/seguridad.jpg" alt="">
                 <h3>Actualización e instalación de drivers</h3>
                 <p class="texto-servicios">Mí servicio de actualización e instalación de drivers garantiza que tu PC esté equipada con los controladores más recientes y compatibles. Me encargaré de identificar y actualizar los controladores necesarios para optimizar el rendimiento y la estabilidad de tu computadora. Me aseguraré que estén correctamente instalados y actualizados.</p>
             </div>
 
-            <div>
+            <div data-aos="fade-right">
                 <img src="./img-rpc/seguridad.jpg" alt="">            
                 <h3>Armado de PC</h3>
                 <p class="texto-servicios">En el servicio de armado de PC, te ofrezco la oportunidad de tener una computadora personalizada y adaptada a tus necesidades. Me encargaré de seleccionar cuidadosamente los componentes adecuados, asegurándome de que sean compatibles y cumplan con tus requisitos. Obtén una computadora de alto rendimiento, confiable y a medida para tus tareas diarias, gaming o proyectos profesionales.</p>
             </div>
 
-            <div>
+            <div data-aos="fade-left">
                 <img src="./img-rpc/seguridad.jpg" alt="">
                 <h3>Mantenimiento</h3>
                 <p class="texto-servicios">Confía en mí servicio de mantenimiento de PC para mantener tu equipo en excelente estado a largo plazo. Realizo una revisión exhaustiva, limpieza, optimización del sistema y actualización de software para asegurar un rendimiento óptimo. Evita problemas futuros y disfruta de una computadora en perfectas condiciones con el servicio de mantenimiento profesional.</p>
@@ -142,10 +146,16 @@
             <i class="fa-brands fa-instagram"></i>
             <i class="fa-regular fa-envelope"></i>
         </div>
+        <p class="texto-footer">© 2023 Landify UI Kit. All rights reserved</p>
     </footer> 
 
 
-
+<!-- script bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<!-- script AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
